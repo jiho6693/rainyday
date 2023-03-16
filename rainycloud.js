@@ -55,7 +55,7 @@ import * as THREE from 'three';
 			//Cloud
 			const loader = new THREE.TextureLoader();
 			const cloudVertices = [];
-			loader.load("./source/smoke.png", function(texture){
+			loader.load(".smoke.png", function(texture){
 
 				const cloudGeo = new THREE.PlaneGeometry(500,500);
 				const cloudMaterial = new THREE.MeshLambertMaterial({
